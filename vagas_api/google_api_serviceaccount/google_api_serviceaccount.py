@@ -34,6 +34,7 @@ def consultar_planilha(planilha):
                 vaga_atual.append(item.split(', '))
         listaDeVagas.append(dict(zip(['vaga', 'requisitos', 'atividades'], vaga_atual)))
     return listaDeVagas
+
 if __name__ == '__main__':
     sheet = auth("VAGAS QUICK")
 
