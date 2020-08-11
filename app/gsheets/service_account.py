@@ -39,10 +39,8 @@ def consultar_planilha(planilha):
 
 if __name__ == '__main__':
     sheet = auth("VAGAS QUICK")
-
     vagas = consultar_planilha(sheet)
     del vagas[-1] # por algum motivo tem um dict vazio aqui, só limpando msm.
-    
+
     for vaga in vagas:
         print(vaga)
-

@@ -6,7 +6,6 @@ from app.gsheets import service_account
 def vagas():
     sheet = service_account.auth("VAGAS QUICK")
     vagas = service_account.consultar_planilha(sheet)
-    del vagas[:-1]
-
-    return jsonify(service_account.consultar_planilha(sheet))
+    del vagas[-1]
+    return jsonify(vagas)
 
