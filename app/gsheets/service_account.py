@@ -33,7 +33,7 @@ def consultar_planilha(planilha):
             if ind == 0: # pra vaga não ficar em formato de lista
                 vaga_atual.append(item)
             else: # 
-                vaga_atual.append(item.split(', '))
+                vaga_atual.append(item.split('; '))
         listaDeVagas.append(dict(zip(['vaga', 'requisitos', 'atividades'], vaga_atual)))
     return listaDeVagas
 
