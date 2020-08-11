@@ -7,5 +7,10 @@ def vagas():
     sheet = service_account.auth("VAGAS QUICK")
     vagas = service_account.consultar_planilha(sheet)
     del vagas[-1]
-    return jsonify(vagas)
 
+    response = {
+        "responseCode": 200,
+        "message": "success",
+        "content": vagas
+    }
+    return jsonify(response)
