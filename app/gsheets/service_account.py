@@ -17,7 +17,7 @@ from oauth2client.service_account import ServiceAccountCredentials
 import gspread
 
 def auth(sheet):
-    creds = ServiceAccountCredentials.from_json_keyfile_name("/home/lucas/Dev/vagas_quick/api/gsheets/creds/service_account.json")
+    creds = ServiceAccountCredentials.from_json_keyfile_name("/home/lucas/Dev/vagas_quick/app/gsheets/creds/service_account.json")
     #client = gspread.service_account.()
     client = gspread.authorize(creds)
     planilha = client.open(sheet).sheet1
