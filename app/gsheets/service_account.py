@@ -15,9 +15,11 @@ License: GNU GPLv3        ___|___)_
 """
 from oauth2client.service_account import ServiceAccountCredentials
 import gspread
+import os
 
 def auth(sheet):
-    creds = ServiceAccountCredentials.from_json_keyfile_name("/home/lucas/Dev/vagas_quick/app/gsheets/creds/service_account.json")
+    full_path_service_account = os.path.join(os.path.dirname(__file__), 'creds/service_account.json')
+    creds = ServiceAccountCredentials.from_json_keyfile_name(full_path_service_account)
     #client = gspread.service_account.()
     client = gspread.authorize(creds)
     planilha = client.open(sheet).sheet1
