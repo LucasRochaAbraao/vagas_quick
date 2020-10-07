@@ -1,4 +1,4 @@
 __pycache__/
 app/__pycache__/
 app/gsheets/__pycache__/
-
+app/gsheets/creds/service_account.json

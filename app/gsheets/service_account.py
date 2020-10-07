@@ -20,7 +20,6 @@ import os
 def auth(sheet):
     full_path_service_account = os.path.join(os.path.dirname(__file__), 'creds/service_account.json')
     creds = ServiceAccountCredentials.from_json_keyfile_name(full_path_service_account)
-    #client = gspread.service_account.()
     client = gspread.authorize(creds)
     planilha = client.open(sheet).sheet1
     return planilha
