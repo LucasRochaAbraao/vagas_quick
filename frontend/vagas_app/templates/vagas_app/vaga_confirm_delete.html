@@ -1,0 +1,18 @@
+{% extends 'vagas_app/main.html' %}
+{% block content %}
+
+<div class="header-bar">
+    <a href="{% url 'vagas' %}">&#8592;Voltar</a>
+</div>
+
+<div class="card-body">
+    <form method="POST">
+        {% csrf_token %}
+        <p>Tem certeza que deseja excluir a vaga "{{vaga}}"?</p>
+        <input class="button" type="submit" value="Excluir" />
+    </form>
+</div>
+
+
+
+{% endblock content %}
