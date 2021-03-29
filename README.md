@@ -2,9 +2,9 @@
 > Esse repositório contém o projeto que gerencia a API que o site da Quick consulta para divulgar vagas na página /trabalhe-conosco.
 > São 2 projetos em 1, pois tem a API que o site da Quick consulta, que expõe as vagas. E também há um frontend desenvolvido para nosso RH gerenciar as vagas do banco de dados.
 
-[![python-image]][python-url]
-[![django-image]][django-url]
-[![sqlite-image]][sqlite-url]
+![python-image][python-url]
+![django-image][django-url]
+![sqlite-image][sqlite-url]
 
 Nesse repositório vocẽ encontra informações de instalação, além de ter acesso ao código fonte, que inclui uma licença open source pra copiar (desde que use a mesma licença no seu projeto)
 
