@@ -2,11 +2,12 @@
 > Esse repositório contém o projeto que gerencia a API que o site da Quick consulta para divulgar vagas na página /trabalhe-conosco.
 > São 2 projetos em 1, pois tem a API que o site da Quick consulta, que expõe as vagas. E também há um frontend desenvolvido para nosso RH gerenciar as vagas do banco de dados.
 
-![python-image][python-url]
+![[python-image]][python-url]
 ![django-image][django-url]
 ![sqlite-image][sqlite-url]
 
-Nesse repositório vocẽ encontra informações de instalação, além de ter acesso ao código fonte, que inclui uma licença open source pra copiar (desde que use a mesma licença no seu projeto)
+Nesse repositório você encontra informações de instalação, além de ter acesso ao código fonte, que inclui uma licença open source pra copiar 
+(desde que use a mesma licença no seu projeto).
 
 
 ## Setup & Instalação
@@ -40,7 +41,7 @@ Utilize o seguinte comando para rodar o servidor na porta 9000, ou configure um 
 [django-image]: https://img.shields.io/static/v1?label=djangl&message=0.63+&color=blue
 [django-url]: https://docs.djangoproject.com/en/3.1/
 
-[sqlite-image]: https://img.shields.io/static/v1?label=sqlite&message=atlas&color=success
+[sqlite-image]: https://img.shields.io/static/v1?label=sqlite&message=python&color=success
 [sqlite-url]: https://docs.python.org/3/library/sqlite3.html
 
 Distribuído sob a licença `GNU GENERAL PUBLIC LICENSE`. Veja `LICENSE` para mais informações.
