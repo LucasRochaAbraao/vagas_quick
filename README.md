@@ -41,7 +41,7 @@ Utilize o seguinte comando para rodar o servidor na porta 9000, ou configure um 
 [django-image]: https://img.shields.io/static/v1?label=django&message=0.63+&color=blue
 [django-url]: https://docs.djangoproject.com/en/3.1/
 
-[sqlite-image]: https://img.shields.io/static/v1?label=sqlite&message=python&color=success
+[sqlite-image]: https://img.shields.io/static/v1?label=sqlite&message=3&color=success
 [sqlite-url]: https://docs.python.org/3/library/sqlite3.html
 
 Distribuído sob a licença `GNU GENERAL PUBLIC LICENSE`. Veja `LICENSE` para mais informações.
