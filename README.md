@@ -38,7 +38,7 @@ Utilize o seguinte comando para rodar o servidor na porta 9000, ou configure um 
 [python-image]: https://img.shields.io/static/v1?label=python&message=3.7&color=blue
 [python-url]: https://www.python.org/downloads/release/python-370/
 
-[django-image]: https://img.shields.io/static/v1?label=djangl&message=0.63+&color=blue
+[django-image]: https://img.shields.io/static/v1?label=django&message=0.63+&color=blue
 [django-url]: https://docs.djangoproject.com/en/3.1/
 
 [sqlite-image]: https://img.shields.io/static/v1?label=sqlite&message=python&color=success
