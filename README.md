@@ -11,7 +11,7 @@ Nesse repositório vocẽ encontra informações de instalação, além de ter a
 
 ## Setup & Instalação
 Primeiro é necessário instalar, configurar e ativar um ambiente virtual, para um melhor gerenciamento do projeto.
-'''
+```
 sudo apt install python3-venv
 python3 -m venv venv
 source venv/bin/activate
