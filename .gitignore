@@ -1,11 +1,7 @@
 __pycache__/
-app/__pycache__/
-app/gsheets/__pycache__/
-app/gsheets/creds/service_account.json
 .env
 venv
-__pycache__/
 db.sqlite3
-frontend/static
-frontend/vagas_app/migrations/
-frontend/staticfiles
+static
+vagas_app/migrations/
+staticfiles
